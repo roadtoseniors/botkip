@@ -6,4 +6,8 @@ class StepsForm(StatesGroup):
     GET_OPI = State()
     GET_BEST = State()
     GET_NONRAV = State()
+    GET_END = State()
     GET_CHANGE = State()
+
+class HelpForm(StatesGroup):
+    Text = State()
